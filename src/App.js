@@ -43,7 +43,7 @@ function App() {
     setTasks(tasks.filter((task1) => task1 !== tasks[randomEntryFromTasks]));
     if (names.length === 0 && tasks.length === 0) {
       alert("All names and tasks done! Page reloading for restarting the game");
-      window.location.href = "./App.js";
+      window.location.href = "./";
     }
   };
   const generatePunishment = () => {
